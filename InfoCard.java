@@ -5,7 +5,6 @@ public class InfoCard {
 
         Scanner sc = new Scanner(System.in);
 
-        // Ask for details
         System.out.print("Enter your name: ");
         String name = sc.nextLine();
 
@@ -17,8 +16,7 @@ public class InfoCard {
 
         System.out.print("Enter your email: ");
         String email = sc.nextLine();
-
-        // Print the info card
+        
          System.out.println("---------Info Card-----------");
         System.out.println("=============================");
         System.out.println(" Name    : " + name);
